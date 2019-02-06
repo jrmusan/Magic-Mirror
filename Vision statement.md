@@ -1,11 +1,12 @@
-Magic Mirror COP 4331 - Spring 2019
+**Magic Mirror COP 4331 - Spring 2019**
 
-Team Members
-•	Sidney Packer
-•	Matthew Saucedo
-•	Joseph Musante
-•	Mardochee Cajuste
+**Team Members**
+* Sidney Packer
+* Matthew Saucedo
+* Joseph Musante
+* Mardochee Cajuste
 
+**Vision Statement**
 
 The mirror is used to display useful information such as weather, travel times, calendar events, and more. 
 For a student this can be the difference between knowing when an assignment is due and missing it entirely.

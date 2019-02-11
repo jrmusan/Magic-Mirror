@@ -1,7 +1,10 @@
 <h3>
   Clock
 </h3>
-<p>
-  7:00 PM
+<p
+  *ngIf="minutes < 10; else elseBlock">
+  {{hours}}:0{{minutes}}:{{seconds}} PM
 </p>
-
+<ng-template #elseBlock>
+  {{hours}}:{{minutes}}:{{seconds}} PM
+</ng-template>

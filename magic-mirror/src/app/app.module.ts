@@ -8,6 +8,7 @@ import { MotivationComponent } from './motivation/motivation.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { UcfRedditComponent } from './ucf-reddit/ucf-reddit.component';
 import { TravelTimesComponent } from './travel-times/travel-times.component';
+import { DateComponent } from './date/date.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TravelTimesComponent } from './travel-times/travel-times.component';
     MotivationComponent,
     CalendarComponent,
     UcfRedditComponent,
-    TravelTimesComponent
+    TravelTimesComponent,
+    DateComponent
   ],
   imports: [
     BrowserModule

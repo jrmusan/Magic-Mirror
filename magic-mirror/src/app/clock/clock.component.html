@@ -3,7 +3,7 @@
 </h3>
 <p
   *ngIf="minutes < 10; else elseBlock">
-  {{hours}}:0{{minutes}}:{{seconds}} PM
+    {{hoursMod12}}:0{{minutes}}:{{seconds}} {{nightOrDay}}
 </p>
 <ng-template #elseBlock>
   {{hoursMod12}}:{{minutes}}:{{seconds}} {{nightOrDay}}

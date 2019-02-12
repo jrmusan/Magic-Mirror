@@ -6,14 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./clock.component.css']
 })
 export class ClockComponent implements OnInit {
-  date: Date = new Date();
-  hours: number = this.date.getHours();
-  hoursMod12: number = this.hours % 12;
-  minutes: number = this.date.getMinutes();
-  seconds: number = this.date.getSeconds();
-  nightOrDay: string = ( this.hours >=12 ) ? "PM" : "AM";
+  date: Date;
+  hours: number;
+  hoursMod12: number;
+  minutes: number;
+  seconds: number;
+  nightOrDay: string;
 
   constructor() {
+    // initializes values at load of page
+    this.date = new Date();
+    this.hours = this.date.getHours();
+    this.hoursMod12 = ( this.hours % 12 == 0 ? 12 : this.hours % 12 );
+    this.minutes = this.date.getMinutes();
+    this.seconds = this.date.getSeconds();
+    this.nightOrDay = ( this.hours >=12 ) ? "PM" : "AM";
+
     // update time every second
     setInterval(() => {
       this.updateTime();
@@ -21,13 +29,12 @@ export class ClockComponent implements OnInit {
   }
 
   ngOnInit() {
-
   }
 
   updateTime() {
     this.date = new Date();
     this.hours = this.date.getHours();
-    this.hoursMod12 = this.hours % 12;
+    this.hoursMod12 = ( this.hours % 12 == 0 ? 12 : this.hours % 12 );
     this.minutes = this.date.getMinutes();
     this.seconds = this.date.getSeconds();
     this.nightOrDay = ( this.hours >=12 ? "PM" : "AM" );

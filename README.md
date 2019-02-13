@@ -1,4 +1,4 @@
-**Magic Mirror COP 4331 - Spring 2019**
+*c*Magic Mirror COP 4331 - Spring 2019**
 
 **Team Members**
 * Sidney Packer
@@ -18,5 +18,7 @@ The flexibility of this mirror sets it apart from other types of devices because
 **Usefull Links**
 
 [User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/user_stories.md "User Stories")
+
+[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Design_Documentation.md "Design stuff")
 
 [Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")

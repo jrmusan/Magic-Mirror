@@ -17,3 +17,4 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 
 
+[I'm an inline-style link with title](https://github.com/jrmusan/Magic-Mirror/blob/master/user_stories.md "User Stories")

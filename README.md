@@ -15,6 +15,6 @@ For a young professional it can ensure before leaving for work that there are no
 The magic mirror can be programmed to display different types of information depending on the user’s needs and lifestyle.
 The flexibility of this mirror sets it apart from other types of devices because may people have mirrors in their room which they check before they go out. Displaying various types of information on this mirror is a major convenience, for you can multitask even better.  
 
+**Usefull Links**
 
-
-[I'm an inline-style link with title](https://github.com/jrmusan/Magic-Mirror/blob/master/user_stories.md "User Stories")
+[User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/user_stories.md "User Stories")

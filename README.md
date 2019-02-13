@@ -1,4 +1,4 @@
-**Magic Mirror COP 4331 - Spring 2019**
+#Magic Mirror COP 4331 - Spring 2019
 
 **Team Members**
 * Sidney Packer

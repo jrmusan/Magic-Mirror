@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "api:venv": "cd api && python3 -m venv venv"
   },
   "private": true,
   "dependencies": {

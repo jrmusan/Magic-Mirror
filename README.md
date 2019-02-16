@@ -28,25 +28,40 @@ The flexibility of this mirror sets it apart from other types of devices because
 ## Development
 **Frontend Dev Server**
 
-`ng serve`
+```
+ng serve
+```
 
 Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 **Code Scaffolding**
 
-`ng generate component component-name`
+```
+ng generate component component-name
+```
 
-`ng generate directive|pipe|service|class|guard|interface|enum|module`
+```
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
 
 **Frontend Build**
 
-`ng build`
+```
+ng build
+```
 
-`ng build --prod`
+```
+ng build --prod
+```
 
 **Testing**
 
-`ng test`
-`ng e2e`
+```
+ng test
+```
+
+```
+ng e2e
+```
 
 

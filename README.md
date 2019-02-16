@@ -17,9 +17,9 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 ## Useful Links
 
-[User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/User_Stories.md "User Stories")
+[User Stories](./docs/User_Stories.md)
 
-[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Design_Documentation.md "Design stuff")
+[Design Documentation](./docs/Design_Documentation.md)
 
 [Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
 

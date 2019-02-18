@@ -64,4 +64,24 @@ ng test
 ng e2e
 ```
 
+**Server Development**
+
+To set up the virtual environment necessary for development, at the root of the project folder run:
+
+```
+npm run api:venv
+```
+
+To install all necessary dependencies for development, at the root of the project run:
+
+```
+npm run api:install
+```
+
+To start the server, at the root of the project run:
+
+```
+npm run api:start
+```
+
 

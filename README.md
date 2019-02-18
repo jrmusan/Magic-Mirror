@@ -17,7 +17,7 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 ## Useful Links
 
-[User Stories](./docs/User_Stories.md)
+[User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
 
 [Design Documentation](./docs/Design_Documentation.md)
 

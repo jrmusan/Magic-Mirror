@@ -19,7 +19,7 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 [User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
 
-[Design Documentation](./Sprint 1/Design_Documentation.md)
+[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/Design_Documentation.md)
 
 [Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
 

@@ -28,14 +28,14 @@
 
 ## Google Assistant
 
-* As a person a lot of questions, I want a device that can implement google assistant to answer my questions. 
+* As a person with a lot of questions, I want a device that can implement google assistant to answer my questions. 
 
-* As a person a many smart devices, I want a device that can turn on and off my bedroom lights using google assistant.
+* As a person with many smart devices, I want a device that can turn on and off my bedroom lights using google assistant.
 
 * As a lazy person, I want a device that can implement google assistant to send text messages.
 
 * As a lazy person, I want a device that can implement google assistant to call people.
 
-* As a forgetful, I want a device that can implement google assistant to set reminders. 
+* As a forgetful person, I want a device that can implement google assistant to set reminders. 
 
 * As a young professional, I want a device that can implement google assistant to set alarms.

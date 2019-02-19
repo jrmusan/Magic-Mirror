@@ -38,7 +38,7 @@ Table of Contents
 5. **System Architecture and Design** ……………………………………………………………………………………………5
 
 
-![Class Diagram](https://imgur.com/gallery/zzL6bjC)
+[Class Diagram](https://imgur.com/gallery/zzL6bjC)
 
 
 - --Monitor

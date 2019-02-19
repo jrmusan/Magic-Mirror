@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "api:venv": "cd api && python3 -m venv venv"
+    "api:venv": "cd api && python3 -m venv venv",
+    "api:install": "cd api && . venv/bin/activate && pip install -r requirements.txt",
+    "api:start": "cd api && . venv/bin/activate && FLASK_APP=api.py flask run"
   },
   "private": true,
   "dependencies": {

@@ -25,6 +25,15 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 [Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
 
+<h2 style="background-color: red; text-align: center;">Grading</h2>
+
+**Backlogs**: We've chosen to implement a Kanban board using Github Projects. Within this tab lies our [Product and Sprint Backlogs]() as well as the current status for tasks we're tackling within the current sprint. As these tasks are finished, they are moved to done, which is essentially the "done" pile of the Sprint Backlog. Github labels are used for priority and categorizing.
+
+**Burndown Chart**: Our burndown chart is automated based on each Sprint milestone and populated as issues are moved to "done" and closed. [Click here](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror) to see this live.
+
+**User Stories**: User stories and related tasks are implemented as Github issues and, as mentioned, are tagged according to priority/category. Validation criteria can be seen within the respective issue as well
+
+
 ## Development
 **Frontend Dev Server**
 

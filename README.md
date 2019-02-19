@@ -25,6 +25,8 @@ The flexibility of this mirror sets it apart from other types of devices because
 
 [Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
 
+[Video Demo](https://www.youtube.com/watch?v=QUPxffKtH3Q&feature=youtu.be "Video Demo")
+
 ## Development
 **Frontend Dev Server**
 

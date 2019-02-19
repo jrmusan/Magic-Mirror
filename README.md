@@ -8,12 +8,9 @@
 
 ## Vision Statement
 
-The mirror is used to display useful information such as weather, travel times, calendar events, and more. 
-For a student this can be the difference between knowing when an assignment is due and missing it entirely.
-For a young professional it can ensure before leaving for work that there are no accidents are on the way and keep them informed of the current events. 
+The Magic mirror is an all in one mirror and information hub that can be used to display useful information such as weather, travel times, calendar events, and more! For a student this can be the difference between knowing when an assignment is due and missing it entirely. For a business professional it can ensure before leaving for work that there are no accidents are on the way and keep them informed of the current events. Anyone who likes to read the top news headlines or check the weather, will be able to do so by simply glancing at the mirror. This will save a lot of time by not having to check your smartphone or turn on the TV. With a magic mirror in your bedroom, not only will you ensure you look dapper, you will always be informed before leaving the house! 
 
-The magic mirror can be programmed to display different types of information depending on the user’s needs and lifestyle.
-The flexibility of this mirror sets it apart from other types of devices because may people have mirrors in their room which they check before they go out. Displaying various types of information on this mirror is a major convenience, for you can multitask even better.  
+The magic mirror can be programmed to display different types of information depending on the user’s needs and lifestyle. The flexibility of this mirror sets it apart from other types of devices, many people have mirrors in their room which they check before they go out. Displaying various types of information on this mirror will enable you to multitask like never before! 
 
 ## Useful Links
 

@@ -12,10 +12,14 @@
 
 * Magic Mirror should automatically turn on and off at specific times
 
-* Information being displayed should be able to easily modify
+* Information being displayed should be able be easily modifyed
 
-* Google assistant should function and display information on mirror
+* Information on mirror needs to stay up to date
 
 * All the information being displayed should be in the same font
 
 * Some more important information like the time should be displayed in a larger text size
+
+* Google assistant should function and display information on mirror
+
+* Google assistant should have a loud enough speaker to respond to user

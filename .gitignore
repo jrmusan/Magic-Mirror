@@ -45,4 +45,5 @@ Thumbs.db
 # API
 venv
 __pycache__
+config.py
 

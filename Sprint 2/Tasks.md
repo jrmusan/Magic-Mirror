@@ -7,4 +7,4 @@
 7. Design Documents [11 points]=============== Mardochee
 8. Code [5 points] 		    =============== Sid, Matt, Joey
 9. Tests [5 point]				=============== Sid, Matt, Joey
-10.Demonstration [10 point]	=============== Joey
+10. Demonstration [10 point]	=============== Joey

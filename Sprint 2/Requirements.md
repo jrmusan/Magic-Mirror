@@ -25,3 +25,5 @@
 * Google assistant should be able to make and recieve calls from the mirror ---- Issue# 22
 
 * Google assistant should have a loud enough speaker to respond to user ---- Issue# 19
+
+* Google assistant should still fully function even when the display for the mirror is turned off, it just won't display information. 

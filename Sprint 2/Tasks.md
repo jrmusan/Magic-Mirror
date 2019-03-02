@@ -1,5 +1,6 @@
 1. Vision Statement [1 points] =============== DONE
 2. User Stories [6 points ] 	=============== Joey
+	1. Done(ish)
 3. Requirements [9 point]		=============== Joey
 4. Product Backlog [1 points]  =============== Sid
 5. Sprint Backlog [1 points] 	=============== 

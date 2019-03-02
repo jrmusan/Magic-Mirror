@@ -4,7 +4,7 @@
 	current month, so that I am made aware of when events will occur. 
 
 * As a person with many commitments, I want to be able to view the current time and date,
-	so that I am always on schedule.
+	so that I am always on schedule.  
 	
 * As a student, I want to be able to view the due date of UCF assignments easily on the calendar, so that I don't forget to hand in assignments. 
 
@@ -31,6 +31,8 @@
 * As a person who likes an organized room, I want a device that can either be hung on the wall or stand up by it's self so that I can have many choices where to put device. 
 
 * As a young professional, I want a simplistic device which can display a range of information while also functioning as a mirror so that I can multitask.
+
+* As a person, I need a device that will display information bright enough so it can be seen from a distance.
 
 ## Google Assistant
 

@@ -12,7 +12,19 @@ The Magic mirror is an all in one mirror and information hub that can be used to
 
 The magic mirror can be programmed to display different types of information depending on the user’s needs and lifestyle. The flexibility of this mirror sets it apart from other types of devices, many people have mirrors in their room which they check before they go out. Displaying various types of information on this mirror will enable you to multitask like never before! 
 
-## Useful Links
+## Sprint 1
+
+[User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
+
+[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/Design_Documentation.md)
+
+[Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
+
+[Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
+
+[Video Demo](https://www.youtube.com/watch?v=QUPxffKtH3Q&feature=youtu.be "Video Demo")
+
+## Sprint 2
 
 [User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
 

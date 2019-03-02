@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12">
+    <h4 class="pull-left">
+      Shit Due
+    </h4>
+  </div>
+<div>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <app-event-item
+      *ngFor="let eventElement of myEvents"
+      [anEvent]="eventElement"></app-event-item>
+  </div>
+</div>

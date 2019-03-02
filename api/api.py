@@ -22,3 +22,16 @@ def news():
 @app.route("/reddit")
 def reddit():
     return "This will return data fetched via Reddit API"
+    
+@app.route("/traffic")
+def traffic():
+    # Hardcode home
+    source = '28.5383,-81.3792'      
+    # Hardcode destination
+    dest = '28.597240,-81.203796'
+    # url variable store url  
+    url ='https://maps.googleapis.com/maps/api/distancematrix/json?'
+    r = requests.get(url + 'origins=' + source +'&destinations=' + dest +'&key=' + api_key) 
+    data = r.json()
+    travelTime = data['rows'][0]['elements'][0]['duration']['text']
+    return json.dumps(travelTime)

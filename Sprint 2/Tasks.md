@@ -12,3 +12,9 @@
 	3. Weather Sid (Done/back end)
 9. Tests [5 point]				=============== Sid, Matt, Joey
 10. Demonstration [10 point]	=============== Joey
+
+
+Diagrams
+
+architecture diagram --> https://i.imgur.com/DXsNvWk.jpg
+

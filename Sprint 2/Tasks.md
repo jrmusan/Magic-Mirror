@@ -16,5 +16,5 @@
 
 Diagrams
 
-architecture diagram --> https://imgur.com/a/3HHEOUu
+architecture diagram --> https://i.imgur.com/DXsNvWk.jpg
 

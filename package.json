@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently --names CLIENT,SERVER -c bgBlue.bold,bgMagenta.bold \"npm run start:client\" \"npm run start:api\"",
-    "start:client": "ng serve",
+    "start:client": "ng serve --proxy-config proxy.conf.json",
     "start:api": "export FLASK_ENV=development && cd api && . venv/bin/activate && FLASK_APP=api.py flask run",
     "build": "ng build",
     "test": "ng test",

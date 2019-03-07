@@ -18,3 +18,5 @@ Diagrams
 
 architecture diagram --> https://i.imgur.com/DXsNvWk.jpg
 
+class diagram --> https://i.imgur.com/x5s97N2.jpg
+

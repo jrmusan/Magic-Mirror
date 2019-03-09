@@ -40,27 +40,28 @@ export class DateComponent implements OnInit {
     switch( dayOfWeek ) {
       case 0:
         this.dayOfWeekWord = "Sunday";
-      break;
+        break;
       case 1:
         this.dayOfWeekWord = "Monday";
-      break;
+        break;
       case 2:
         this.dayOfWeekWord = "Tuesday";
-      break;
+        break;
       case 3:
         this.dayOfWeekWord = "Wednesday";
-      break;
+        break;
       case 4:
         this.dayOfWeekWord = "Thursday";
-      break;
+        break;
       case 5:
         this.dayOfWeekWord = "Friday";
-      break;
+        break;
       case 6:
         this.dayOfWeekWord = "Saturday";
         break;
       default:
         this.dayOfWeekWord = "Payday";
+        break;
     }
   }
 
@@ -90,16 +91,22 @@ export class DateComponent implements OnInit {
         break;
       case 7:
         this.dayOfMonthWord = "August";
+        break;
       case 8:
         this.dayOfMonthWord = "September";
+        break;
       case 9:
         this.dayOfMonthWord = "October";
+        break;
       case 10:
         this.dayOfMonthWord = "November";
+        break;
       case 11:
         this.dayOfMonthWord = "December";
+        break;
       default:
         this.dayOfMonthWord = "PayMonth";
+        break;
     }
   }
 
@@ -110,6 +117,6 @@ export class DateComponent implements OnInit {
     this.month = this.date.getMonth();
     this.year = this.date.getFullYear();
     this.stringDayOfWeek( this.dayOfWeek );
-    this.stringDayOfMonth( this.dayOfMonth );
+    this.stringDayOfMonth( this.month );
   }
 }

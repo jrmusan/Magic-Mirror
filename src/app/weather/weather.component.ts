@@ -8,7 +8,7 @@ import { WeatherModel } from './weather.model';
   styleUrls: ['./weather.component.css']
 })
 export class WeatherComponent implements OnInit {
-  private weather: WeatherModel;
+  /*private*/ weather: WeatherModel;
 
   constructor(private weatherService: WeatherService) {  }
 

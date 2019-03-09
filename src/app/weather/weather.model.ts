@@ -1,10 +1,10 @@
 export class WeatherModel {
-    private temperature: number;
-    private high: number;
-    private low: number;
-    private humidity: number;
-    private uvIndex: number;
-    private summary: string;
+    /*private*/ temperature: number;
+  /*private*/ high: number;
+  /*private*/ low: number;
+  /*private*/ humidity: number;
+  /*private*/ uvIndex: number;
+  /*private*/ summary: string;
 
     constructor(
         temperature: number,

@@ -1,11 +1,16 @@
 h1 {
   color: white;
+  font-size: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 h2 {
   color: white;
+  font-size: 10px;
 }
 h3 {
   color: white;
+
 }
 h4 {
   color: white;

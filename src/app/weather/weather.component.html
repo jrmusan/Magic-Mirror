@@ -1,6 +1,6 @@
 <div class = "container">
   <div class = "info">
-    <h1>{{ weather.summary || 'Loading ...' }}</h1>
-    <h1> Current Temp: {{ weather.temperature || 'Loading ...' }}</h1>
+    <h1>{{ weather.currently.summary || 'Loading ...' }}</h1>
+    <h1> Current Temp: {{ weather.currently.temperature || 'Loading ...' }} &deg;F</h1>
   </div>
 </div>

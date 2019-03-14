@@ -1,7 +1,7 @@
 
-<p *ngIf="minutes < 10; else elseBlock">
+<h1 *ngIf="minutes < 10; else elseBlock">
   {{hoursMod12}}:0{{minutes}}:{{seconds}} {{nightOrDay}}
-</p>
+</h1>
 <ng-template #elseBlock>
-  {{hoursMod12}}:{{minutes}}:{{seconds}} {{nightOrDay}}
+  <h1>{{hoursMod12}}:{{minutes}}:{{seconds}} {{nightOrDay}}</h1>
 </ng-template>

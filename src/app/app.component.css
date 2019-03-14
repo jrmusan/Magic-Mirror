@@ -1,16 +1,48 @@
+html {
+  height: 100%;
+}
 body {
   color: white;
   background-color: black;
+  padding: 25px;
+  height: 100%;
 }
 
 h1 {
-  font-size: 80px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  font-size: 55px;
 }
 h2 {
   font-size: 10px;
 }
+
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .list-group-item {
   background-color: dimgrey;
+}
+
+.column-left, .column-middle, .column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+}
+
+.column-left h1 {
+  text-align: left;
+}
+
+.column-middle h1 {
+  text-align: center;
+}
+
+.column-right h1 {
+  text-align: right;
 }

@@ -6,7 +6,9 @@ import sys,io,requests
 
 r = requests.get('http://quotes.rest/qod.json?category=inspire&maxlength=300') 
 data = r.json()
-daQuote = data['contents']['quotes'][0]['quote']
+
+def da_quote(data):
+	daQuote = data['contents']['quotes'][0]['quote']
 
 print(r)
 print(daQuote)

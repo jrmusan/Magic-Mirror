@@ -26,6 +26,13 @@ def news():
 def reddit():
     return "This will return data fetched via Reddit API"
     
+@app.route("/api/quote")
+def quote();
+    r = requests.get('http://quotes.rest/qod.json?category=inspire&maxlength=300') 
+    data = r.json()
+    daQuote = data['contents']['quotes'][0]['quote']
+    return json.dumps(daQuote)
+    
 @app.route("/api/traffic")
 def traffic():
     # Hardcode home

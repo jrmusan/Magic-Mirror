@@ -5,6 +5,7 @@ import config
 from flask import Flask
 from functools import reduce
 from weather_helpers import extract_weather_data
+from calendar_event_helpers import extract_calendar_data
 
 app = Flask(__name__)
 
@@ -45,3 +46,10 @@ def traffic():
     data = r.json()
     travelTime = data['rows'][0]['elements'][0]['duration']['text']
     return json.dumps(travelTime)
+
+@app.route("/api/calendar")
+def calendar():
+    #r = requests.get(''.format())
+
+    # TODO: Error checking
+    #return json.dumps(extract_calendar_data(r.json()))

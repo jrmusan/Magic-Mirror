@@ -1,6 +1,8 @@
 import unittest
 from Traffic import extract_travel_time
 
+# This test is used to ensure that we are correctly grabbing and returning the right data from the API
+
 class TestStringMethods(unittest.TestCase):
     def test_extract_travel_time1(self):
         mock_data = {

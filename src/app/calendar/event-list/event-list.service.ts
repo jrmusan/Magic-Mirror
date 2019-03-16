@@ -9,6 +9,6 @@ export class EventListService {
   constructor(private http: HttpClient) { }
 
   getEvents() {
-    return this.http.get('/api/weather');
+    return this.http.get('/api/calendar');
   }
 }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CustomEvent } from './customEvent.model';
+import {EventListService} from './event-list.service';
+
 
 @Component({
   selector: 'app-event-list',
@@ -17,9 +19,17 @@ export class EventListComponent implements OnInit {
     , new CustomEvent('Quit', 'You can do better',
       'January 9')
   ];
-  constructor() { }
+
+  constructor(private eventListService: EventListService) {  }
 
   ngOnInit() {
+    this.eventListService.getEvents().subscribe(
+      (data: any) => {
+        this.myEvents = data;
+      },
+      err => console.log(err),
+      () => console.log('Retrieved calendar event data successfully.')
+    );
   }
 
 }

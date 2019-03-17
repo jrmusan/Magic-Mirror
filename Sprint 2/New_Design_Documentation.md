@@ -1,17 +1,20 @@
 ## Program Organization
-![high_level_architecture](https://user-images.githubusercontent.com/47402226/54256413-5055ea80-4532-11e9-87cc-c2a304588f1e.png)
-### Architectural description
-- This project will have both Hardware and software interact with each other to create/build a magic mirror
-- The API/Software will loaded into a Raspberry Pi 
-  -  wired ethernet connection 
-  -  power adapter to power the device
-  -  Pi will output contains into the mirror monitor via HDMI/VGA
-- Mirror Will Display the followings widget or applet
-  -  Calendar
-  -  Weather 
-  -  Time/Date
-  -  Motivational Quotes
-  -  News/Reddit
+![HighLevel](https://user-images.githubusercontent.com/47402226/54483992-d5dbe200-4833-11e9-982f-1303cdc659ba.PNG)
+
+### Architectural Description
+| Component Name  | Description                                                                                                                                             
+|-----------------|--------------------------------------------------------------------------------------------------
+| APIs            | Used to make direct request to the APIs and it will return info to the front-end to be displayed.       
+| Raspberry Pi    | Hardware to load application into                               
+| Mirror          | Hardware that will display contents/Part of the front-end        
+| User            | People that will interact or use  the application
+| User Choice     | every User will have option to add and remove feature to display in the interface
+| Calendar        | Will show upcoming classes/Events
+| Weather         | Will show current temperature and forecost
+| Date            | Will show today's date
+| Clock           | will show current time of the day
+| Travel          | Will used to display up to date travel times
+| Reddit/News     | Display top news headlines/breaking news
 
 ### Table That relates each components from architecture design to each user story
 
@@ -30,7 +33,7 @@
 
 
 ## Major Classes
-![Class Diagram](https://i.imgur.com/GCaxk1l.png)
+![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
 - @ Joey, you might be able to add a better description for this class diagram
@@ -53,15 +56,25 @@
 
 
 ## Data Design
-- Will need to ask Sid.
+- For this project, we don't use a database. Instead, we made direct request to the APIs and return the results to the front-end to be displayed
 
 ## Business Rules
 - Our application is based on an open-source platform, people will be able to modify things.
 ## User Interface Design
 ![user interface](https://camo.githubusercontent.com/7579d31725c01c8f0affd517848d492b800c19e8/68747470733a2f2f692e696d6775722e636f6d2f526d7a435a4b362e6a7067)
 ### User Interface Description
--  User will be able to interact with our mirror when we hang it in the wall. 
--  They will be able to see events such as, calendar, weather, news, and quotes.
+| Component Name         | Description                                                                                                                                             
+|-----------------       |--------------------------------------------------------------------------------------------------
+|Monitor              	 | will use a monitor as the display for the mirror
+|Refective Two Way Mirror| Will be used to show the contents as well as the user face
+|Frame                   | Will be used to housing the monitor
+|Raspberry Pie           | Will be used to as in intermidary for the hardware and the software
+| Calendar               | Will show upcoming classes/Events
+| Weather                | Will show current temperature and forecost
+| Date                   | Will show today's date
+| Clock                  | will show current time of the day
+| Travel                 | Will used to display up to date travel times
+| Reddit/News            | Display top news headlines/breaking news
 
 ### Table That relates user interface to each user stories
 | ID  |Components| User Story                                                                                                                                               | Effort | Priority | Validation | Status | Owner |

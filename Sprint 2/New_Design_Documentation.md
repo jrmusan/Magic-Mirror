@@ -1,6 +1,7 @@
 ## Program Organization
+![HighLevel](https://user-images.githubusercontent.com/47402226/54483992-d5dbe200-4833-11e9-982f-1303cdc659ba.PNG)
 
-### Architectural description
+### Architectural Description
 | Component Name  | Description                                                                                                                                             
 |-----------------|--------------------------------------------------------------------------------------------------
 | APIs            | Used to make direct request to the APIs and it will return info to the front-end to be displayed.       

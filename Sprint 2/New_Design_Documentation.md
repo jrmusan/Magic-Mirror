@@ -56,7 +56,7 @@
 
 
 ## Data Design
-- Will need to ask Sid.
+- For this project, we don't use a database. Instead, we made direct request to the APIs and return the results to the front-end to be displayed
 
 ## Business Rules
 - Our application is based on an open-source platform, people will be able to modify things.

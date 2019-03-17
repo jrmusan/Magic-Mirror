@@ -33,7 +33,7 @@
 
 
 ## Major Classes
-![image](https://user-images.githubusercontent.com/47402226/54484077-29026480-4835-11e9-924c-da84f6de9d44.png)
+![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
 - @ Joey, you might be able to add a better description for this class diagram

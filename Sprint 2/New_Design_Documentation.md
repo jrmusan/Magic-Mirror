@@ -1,17 +1,19 @@
 ## Program Organization
 ![high_level_architecture](https://user-images.githubusercontent.com/47402226/54256413-5055ea80-4532-11e9-87cc-c2a304588f1e.png)
 ### Architectural description
-- This project will have both Hardware and software interact with each other to create/build a magic mirror
-- The API/Software will loaded into a Raspberry Pi 
-  -  wired ethernet connection 
-  -  power adapter to power the device
-  -  Pi will output contains into the mirror monitor via HDMI/VGA
-- Mirror Will Display the followings widget or applet
-  -  Calendar
-  -  Weather 
-  -  Time/Date
-  -  Motivational Quotes
-  -  News/Reddit
+| Component Name  | Description                                                                                                                                             
+|-----------------|--------------------------------------------------------------------------------------------------
+| APIs            | Used to make direct request to the APIs and it will return info to the front-end to be displayed.       
+| Raspberry Pi    | Hardware to load application into                               
+| Mirror          | Hardware that will display contents/Part of the front-end        
+| User            | People that will interact or use  the application
+| User Choice     | every User will have option to add and remove feature to display in the interface
+| Calendar        | Will show upcoming classes/Events
+| Weather         | Will show current temperature and forecost
+| Date            | Will show today's date
+| Clock           | will show current time of the day
+| Travel          | Will used to display up to date travel times
+| Reddit/News     | Display top news headlines/breaking news
 
 ### Table That relates each components from architecture design to each user story
 

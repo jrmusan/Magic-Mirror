@@ -63,8 +63,18 @@
 ## User Interface Design
 ![user interface](https://camo.githubusercontent.com/7579d31725c01c8f0affd517848d492b800c19e8/68747470733a2f2f692e696d6775722e636f6d2f526d7a435a4b362e6a7067)
 ### User Interface Description
--  User will be able to interact with our mirror when we hang it in the wall. 
--  They will be able to see events such as, calendar, weather, news, and quotes.
+| Component Name         | Description                                                                                                                                             
+|-----------------       |--------------------------------------------------------------------------------------------------
+|Monitor              	 | will use a monitor as the display for the mirror
+|Refective Two Way Mirror| Will be used to show the contents as well as the user face
+|Frame                   | Will be used to housing the monitor
+|Raspberry Pie           | Will be used to as in intermidary for the hardware and the software
+| Calendar               | Will show upcoming classes/Events
+| Weather                | Will show current temperature and forecost
+| Date                   | Will show today's date
+| Clock                  | will show current time of the day
+| Travel                 | Will used to display up to date travel times
+| Reddit/News            | Display top news headlines/breaking news
 
 ### Table That relates user interface to each user stories
 | ID  |Components| User Story                                                                                                                                               | Effort | Priority | Validation | Status | Owner |

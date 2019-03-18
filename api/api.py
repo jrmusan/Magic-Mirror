@@ -19,8 +19,7 @@ TRAFFIC_DEST = '28.597240,-81.203796'
 @app.route("/api/weather")
 def weather():
     r = requests.get('https://api.darksky.net/forecast/{}/{}{}'.format(config.darksky_key, ORLANDO_COORD_STR, WEATHER_QUERY_PARAMS))
-    #return json.dumps(extract_weather_data(r.json()))
-    return json.dumps(r.json())
+    return json.dumps(extract_weather_data(r.json()))
 
 @app.route("/api/news")
 def news():

@@ -44,7 +44,7 @@ def traffic():
 @app.route("/api/calendar")
 def calendar():
     pass
-    #r = requests.get(''.format())
+    #r = requests.get(https://webcourses.ucf.edu/feeds/calendars/user_QlbM3tYdBowXoTbbzfgUiy7cYb39WTcBzkEDCWUU.ics)
 
     # TODO: Error checking
-    #return json.dumps(extract_calendar_data(r.json()))
+    #return json.dumps(extract_calendar_data(r))

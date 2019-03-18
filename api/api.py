@@ -43,6 +43,7 @@ def traffic():
 
 @app.route("/api/calendar")
 def calendar():
+    pass
     #r = requests.get(''.format())
 
     # TODO: Error checking

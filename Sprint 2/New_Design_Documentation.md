@@ -105,6 +105,7 @@
 ## Resource Management
 - Python instead of Angular
 ## Security
+- As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance
 ## Scalability
 ## Interoperability

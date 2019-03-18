@@ -45,7 +45,7 @@
 |Date Componet       | Using this class to request data from the IPA and returned data for the Date components
 |Clock Component     | Using this class to request data from the IPA and returned data for the Clock components
 |Motivation Component| Using this class to request data from the IPA and returned data for the Motivation components
-|Flask               | Received HTTP request and called those methods for that instance.
+|Flask               | Received HTTP request and called those methods for those instances.
 
 
 ### Table That relates each components from the class design to each user stories

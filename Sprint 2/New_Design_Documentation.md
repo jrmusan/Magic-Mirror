@@ -1,5 +1,7 @@
 ## Program Organization
-![HighLevel](https://user-images.githubusercontent.com/47402226/54483992-d5dbe200-4833-11e9-982f-1303cdc659ba.PNG)
+### Architectural Design/Diagram
+
+![TheHighLevel](https://user-images.githubusercontent.com/47402226/54561404-f70b1280-499a-11e9-84bd-8e3cea02a4ca.PNG)
 
 ### Architectural Description
 | Component Name  | Description                                                                                                                                             
@@ -32,11 +34,22 @@
 
 
 ## Major Classes
+### Classes Design/Diagram
 ![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
-- @ Joey, you might be able to add a better description for this class diagram
-- Leave this as a TODO item
+| Component Name     | Description                                                                                                                                             
+|-----------------   |--------------------------------------------------------------------------------------------------
+|App Root            | The main app component. Using Angular to the send data to the interface.
+|Calendar Component  | Using this class to request data from the IPA and returned data for the calendar components to the front-end
+|Reddit Component    | Using this class to request data from the IPA and returned data for the Reddit components to the front-end
+|Weather Component   | Using this class to request data from the IPA and returned data for the Weather components to the front-end
+|Travel Component    | Using this class to request data from the IPA and returned data for the Travel components to the front-end
+|Date Componet       | Using this class to request data from the IPA and returned data for the Date components to the front-end
+|Clock Component     | Using this class to request data from the IPA and returned data for the Clock components to the front-end
+|Motivation Component| Using this class to request data from the IPA and returned data for the Motivation components to the front-end
+|Flask               | Received HTTP request and called those methods for those instances.
+
 
 ### Table That relates each components from the class design to each user stories
 
@@ -90,7 +103,9 @@
 | 008 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 ## Resource Management
+- Python instead of Angular
 ## Security
+- As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance
 ## Scalability
 ## Interoperability
@@ -101,7 +116,9 @@
 ## Architectural Feasibility
 ## Overengineering
 ## Build-vs-Buy Decisions
-This section should list the third party libraries your system is using and describe what those libraries are being used for.
+We used both Angular and Flask as a third party libraries in our system.
+- Angular- 
+- Flask- Received HTTP request and called those methods for those instances. 
 ## Reuse
 ## Change Strategy
 

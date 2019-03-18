@@ -5,4 +5,4 @@ However, with a simple Explanation, things will make sense.
 
 X Axis - Due to the nature of our short sprints the X axis only says the current month, there is no way of changing this. 
 
-Y Axis - The Y Axis represents the number of user stories which will be implemented by the deadline  
+Y Axis - The Y Axis represents the number of user stories which will be implemented by the deadline, each worth a point.   

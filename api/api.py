@@ -5,7 +5,7 @@ import config
 from flask import Flask
 from functools import reduce
 from weather_helpers import extract_weather_data
-from Traffic import extract_travel_time
+from traffic_helpers import extract_travel_time
 from calendar_event_helpers import extract_calendar_data
 
 app = Flask(__name__)
@@ -19,7 +19,8 @@ TRAFFIC_DEST = '28.597240,-81.203796'
 @app.route("/api/weather")
 def weather():
     r = requests.get('https://api.darksky.net/forecast/{}/{}{}'.format(config.darksky_key, ORLANDO_COORD_STR, WEATHER_QUERY_PARAMS))
-    return json.dumps(extract_weather_data(r.json()))
+    #return json.dumps(extract_weather_data(r.json()))
+    return json.dumps(r.json())
 
 @app.route("/api/news")
 def news():

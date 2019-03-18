@@ -32,6 +32,8 @@ The magic mirror can be programmed to display different types of information dep
 
 [Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
 
+
+
 [Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
 
 [Video Demo](https://www.youtube.com/watch?v=QUPxffKtH3Q&feature=youtu.be "Video Demo")

@@ -115,7 +115,9 @@
 ## Architectural Feasibility
 ## Overengineering
 ## Build-vs-Buy Decisions
-This section should list the third party libraries your system is using and describe what those libraries are being used for.
+We used both Angular and Flask as a third party libraries in our system.
+- Angular- 
+- Flask- Received HTTP request and called those methods for those instances. 
 ## Reuse
 ## Change Strategy
 

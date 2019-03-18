@@ -35,8 +35,18 @@
 ![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
-- @ Joey, you might be able to add a better description for this class diagram
-- Leave this as a TODO item
+| Component Name         | Description                                                                                                                                             
+|-----------------       |--------------------------------------------------------------------------------------------------
+|             	 | 
+|| 
+|                   | 
+|         | 
+|                | 
+|                | 
+|                | 
+|| 
+|| 
+|| 
 
 ### Table That relates each components from the class design to each user stories
 

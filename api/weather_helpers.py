@@ -11,8 +11,8 @@ def extract_weather_data(json_data):
             low_temp = day_temp
 
     return {
-        'current': json_data['currently']['apparentTemperature'],
-        'low': low_temp,
-        'high': high_temp,
+        'current': int(json_data['currently']['apparentTemperature']),
+        'low': int(low_temp),
+        'high': int(high_temp),
         'summary': json_data['currently']['summary']
     }

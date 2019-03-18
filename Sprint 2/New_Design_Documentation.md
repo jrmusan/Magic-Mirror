@@ -1,4 +1,6 @@
 ## Program Organization
+### Architectural Design/Diagram
+
 ![TheHighLevel](https://user-images.githubusercontent.com/47402226/54561404-f70b1280-499a-11e9-84bd-8e3cea02a4ca.PNG)
 
 ### Architectural Description
@@ -32,6 +34,7 @@
 
 
 ## Major Classes
+### Classes Design/Diagram
 ![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description

@@ -35,18 +35,18 @@
 ![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
-| Component Name         | Description                                                                                                                                             
-|-----------------       |--------------------------------------------------------------------------------------------------
-|             	 | 
-|| 
-|                   | 
-|         | 
-|                | 
-|                | 
-|                | 
-|| 
-|| 
-|| 
+| Component Name     | Description                                                                                                                                             
+|-----------------   |--------------------------------------------------------------------------------------------------
+|App Root            | The main app component. Using Angular to the send data to the interface.
+|Calendar Component  | Using this class to request data from the IPA and returned data for the calendar components
+|Reddit Component    | Using this class to request data from the IPA and returned data for the Reddit components
+|Weather Component   | Using this class to request data from the IPA and returned data for the Weather components
+|Travel Component    | Using this class to request data from the IPA and returned data for the Travel components
+|Date Componet       | Using this class to request data from the IPA and returned data for the Date components
+|Clock Component     | Using this class to request data from the IPA and returned data for the Clock components
+|Motivation Component| Using this class to request data from the IPA and returned data for the Motivation components
+|Flask               | Received HTTP request and called those methods for that instance.
+
 
 ### Table That relates each components from the class design to each user stories
 
@@ -100,6 +100,7 @@
 | 008 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 ## Resource Management
+- Python instead of Angular
 ## Security
 ## Performance
 ## Scalability

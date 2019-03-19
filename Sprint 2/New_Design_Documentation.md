@@ -68,7 +68,7 @@
 - For this project, we don't use a database. Instead, we made direct request to the APIs and return the results to the front-end to be displayed
 
 ## Business Rules
-- Our application is based on an open-source platform, people will be able to modify things.
+- Our application is based on an open-source platform, people will be have the capability to modify the codes.
 ## User Interface Design
 ![user interface](https://camo.githubusercontent.com/7579d31725c01c8f0affd517848d492b800c19e8/68747470733a2f2f692e696d6775722e636f6d2f526d7a435a4b362e6a7067)
 ### User Interface Description
@@ -101,7 +101,7 @@
 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 ## Resource Management
-- Python instead of Angular
+- We use Python instead of Angular to request or pull down data from the APIs for each component (such as Clock, Date, Weather ect..) because it enables us to show only the necessary information we need to display to the front-end for each instances.
 ## Security
 - As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance

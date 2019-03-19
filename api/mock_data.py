@@ -77,8 +77,8 @@ mock_data_traffic_mins_only = {
             'distance': {'text': '22.7 km', 'value': 22738},
             'duration': {'text': '20 mins', 'value': 1171},
             'status': 'OK'
-            }]
-        }],
+        }]
+    }],
     'status': 'OK'
 }
 
@@ -89,4 +89,33 @@ mock_data_traffic_hours_and_mins = {
         }]
     }],
     'status': 'OK'
+}
+
+mock_quote_data = {
+    "success": {
+        "total": 1
+    },
+    "contents": {
+        "quotes": [
+            {
+                "quote": "Each player must accept the cards life deals him or her: but once they are in hand, he or she alone must decide how to play the cards in order to win the game.",
+                "length": "159",
+                "author": "Voltaire",
+                "tags": [
+                    "game",
+                    "games",
+                    "inspire",
+                    "order",
+                    "tso-life"
+                ],
+                "category": "inspire",
+                "date": "2019-03-16",
+                "permalink": "https://theysaidso.com/quote/GhK26WkA8I_Mk3ZSV6evAQeF/voltaire-each-player-must-accept-the-cards-life-deals-him-or-her-but-once-they-a",
+                "title": "Inspiring Quote of the day",
+                "background": "https://theysaidso.com/img/bgs/man_on_the_mountain.jpg",
+                "id": "GhK26WkA8I_Mk3ZSV6evAQeF"
+            }
+        ],
+        "copyright": "2017-19 theysaidso.com"
+    }
 }

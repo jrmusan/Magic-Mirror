@@ -1,14 +1,14 @@
 ## Program Organization
-![HighLevel](https://user-images.githubusercontent.com/47402226/54483992-d5dbe200-4833-11e9-982f-1303cdc659ba.PNG)
+### Architectural Design/Diagram
+
+![NewHighLeve](https://user-images.githubusercontent.com/47402226/54579995-5e958200-49dc-11e9-9791-510319845960.PNG)
 
 ### Architectural Description
 | Component Name  | Description                                                                                                                                             
 |-----------------|--------------------------------------------------------------------------------------------------
 | APIs            | Used to make direct request to the APIs and it will return info to the front-end to be displayed.       
-| Raspberry Pi    | Hardware to load application into                               
-| Mirror          | Hardware that will display contents/Part of the front-end        
-| User            | People that will interact or use  the application
-| User Choice     | every User will have option to add and remove feature to display in the interface
+| Raspberry Pie   | Hardware to load the system application into                               
+| Mirror/Monitor  | Hardware that will display contents/Part of the front-end        
 | Calendar        | Will show upcoming classes/Events
 | Weather         | Will show current temperature and forecost
 | Date            | Will show today's date
@@ -18,46 +18,57 @@
 
 ### Table That relates each components from architecture design to each user story.
 
-| ID  |Components| User Story                                                                                                                                               
-|-----|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
-| 000 |Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
-| 001 |Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
-| 002 |Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
-| 003 |Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
-| 004 |Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
-| 005 |Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
-| 006 |Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
-| 007 |Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
-| 008 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
+|Components| User Story                                                                                                                                               
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
+|Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
+|Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
+|Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
+|Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
+|Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
+|Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
+|Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
+|Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
+|News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 
 ## Major Classes
+### Classes Design/Diagram
 ![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
 
 ### Class Description
-- @ Joey, you might be able to add a better description for this class diagram
-- Leave this as a TODO item
+| Component Name     | Description                                                                                                                                             
+|-----------------   |--------------------------------------------------------------------------------------------------
+|App Root            | The main app component. Using Angular to the send data to the interface.
+|Calendar Component  | Using this class to request data from the APIs and returned data for the calendar components to the front-end
+|Reddit Component    | Using this class to request data from the APIs and returned data for the Reddit components to the front-end
+|Weather Component   | Using this class to request data from the APIs and returned data for the Weather components to the front-end
+|Travel Component    | Using this class to request data from the APIs and returned data for the Travel components to the front-end
+|Date Componet       | Using this class to request data from the APIs and returned data for the Date components to the front-end
+|Clock Component     | Using this class to request data from the APIs and returned data for the Clock components to the front-end
+|Motivation Component| Using this class to request data from the APIs and returned data for the Motivation components to the front-end
+|Flask               | Received HTTP request and called those methods for those instances.
+
 
 ### Table That relates each components from the class design to each user stories
 
-| ID  |Components| User Story                                                                                                                                               
-|-----|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
-| 000 |Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
-| 001 |Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
-| 002 |Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
-| 003 |Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
-| 004 |Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
-| 005 |Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
-| 006 |Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
-| 007 |Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
-| 008 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
+|Components| User Story                                                                                                                                               
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
+|Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
+|Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
+|Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
+|Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
+|Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
+|Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
+|Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
+|Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
+|News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 
 ## Data Design
 - For this project, we don't use a database. Instead, we made direct request to the APIs and return the results to the front-end to be displayed
 
 ## Business Rules
-- Our application is based on an open-source platform, people will be able to modify things.
+- Our application is based on an open-source platform, people will be have the capability to modify the codes.
 ## User Interface Design
 ![user interface](https://camo.githubusercontent.com/7579d31725c01c8f0affd517848d492b800c19e8/68747470733a2f2f692e696d6775722e636f6d2f526d7a435a4b362e6a7067)
 ### User Interface Description
@@ -77,20 +88,22 @@
 
 ### Table That relates user interface to each user stories
 
-| ID  |Components| User Story                                                                                                                                               
-|-----|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
-| 000 |Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
-| 001 |Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
-| 002 |Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
-| 003 |Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
-| 004 |Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
-| 005 |Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
-| 006 |Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
-| 007 |Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
-| 008 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
+|Components| User Story                                                                                                                                               
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------          
+|Calendar  | As a person with many commitments, I want to be able to view a calendar for the current month, so that I am made aware of when events will occur. 
+|Time/Date | As a person with many commitments, I want to be able to view the current time and date, so that I am always on schedule.                          
+|Calendar  | As a student, I want to be able to view the due date of UCF assignments  easily on the calendar, so that I don't forget to hand in assignments.          
+|Reddit    | As a student, I want to be able to view the currently trending UCF subreddit posts, so that I can keep up to date with the concerns of the student body. 
+|Weather   | As a planner, I want to view the current day’s weather, so that I can dress accordingly.                                                                 
+|Weather   | As a planner, I want to view the weather outlook for the week so I can plan accordingly.                                                                
+|Quotes    | As an attitude-focused person, I want to be able to read multiple motivational quotes, so that I can feel encouraged to tackle my day.                   
+|Travel    | As a young professional, I want to have up to date travel times to work so I can know if there are any accidents on the way.                             
+|News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 ## Resource Management
+- We use Python instead of Angular to request or pull down data from the APIs for each component (such as Clock, Date, Weather ect..) because it enables us to show only the necessary information we need to display to the front-end for each instances.
 ## Security
+- As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance
 ## Scalability
 ## Interoperability
@@ -101,7 +114,9 @@
 ## Architectural Feasibility
 ## Overengineering
 ## Build-vs-Buy Decisions
-This section should list the third party libraries your system is using and describe what those libraries are being used for.
+We used both Angular and Flask as a third party libraries in our system.
+- Angular- It enable us to use package functionality to request data from the APIs.
+- Flask- Received HTTP request and called those methods for those instances. 
 ## Reuse
 ## Change Strategy
 

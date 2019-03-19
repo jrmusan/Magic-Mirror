@@ -1,7 +1,7 @@
 ## Program Organization
 ### Architectural Design/Diagram
 
-![TheHighLevel](https://user-images.githubusercontent.com/47402226/54561404-f70b1280-499a-11e9-84bd-8e3cea02a4ca.PNG)
+![NewHighLeve](https://user-images.githubusercontent.com/47402226/54579995-5e958200-49dc-11e9-9791-510319845960.PNG)
 
 ### Architectural Description
 | Component Name  | Description                                                                                                                                             

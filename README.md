@@ -108,7 +108,7 @@ npm run api:start
 
 **Server Tests**
 
-To run tests we have set up for route methods, eun
+To run tests we have set up for route methods, run
 
 ```
 python api/tests.py

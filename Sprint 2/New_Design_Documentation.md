@@ -39,13 +39,13 @@
 | Component Name     | Description                                                                                                                                             
 |-----------------   |--------------------------------------------------------------------------------------------------
 |App Root            | The main app component. Using Angular to the send data to the interface.
-|Calendar Component  | Using this class to request data from the IPA and returned data for the calendar components to the front-end
-|Reddit Component    | Using this class to request data from the IPA and returned data for the Reddit components to the front-end
-|Weather Component   | Using this class to request data from the IPA and returned data for the Weather components to the front-end
-|Travel Component    | Using this class to request data from the IPA and returned data for the Travel components to the front-end
-|Date Componet       | Using this class to request data from the IPA and returned data for the Date components to the front-end
-|Clock Component     | Using this class to request data from the IPA and returned data for the Clock components to the front-end
-|Motivation Component| Using this class to request data from the IPA and returned data for the Motivation components to the front-end
+|Calendar Component  | Using this class to request data from the APIs and returned data for the calendar components to the front-end
+|Reddit Component    | Using this class to request data from the APIs and returned data for the Reddit components to the front-end
+|Weather Component   | Using this class to request data from the APIs and returned data for the Weather components to the front-end
+|Travel Component    | Using this class to request data from the APIs and returned data for the Travel components to the front-end
+|Date Componet       | Using this class to request data from the APIs and returned data for the Date components to the front-end
+|Clock Component     | Using this class to request data from the APIs and returned data for the Clock components to the front-end
+|Motivation Component| Using this class to request data from the APIs and returned data for the Motivation components to the front-end
 |Flask               | Received HTTP request and called those methods for those instances.
 
 

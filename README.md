@@ -28,7 +28,7 @@ The magic mirror can be programmed to display different types of information dep
 
 [User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
 
-[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/Design_Documentation.md)
+[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/New_Design_Documentation.md)
 
 [Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
 

@@ -106,4 +106,12 @@ To start the server, at the root of the project run:
 npm run api:start
 ```
 
+**Server Tests**
+
+To run tests we have set up for route methods, eun
+
+```
+python api/tests.py
+```
+
 

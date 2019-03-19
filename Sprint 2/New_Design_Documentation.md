@@ -101,7 +101,7 @@
 |News      | As a person who likes to stay informed, I'd like an easy way to view the  top news headlines so I can always know of any breaking news.   
 
 ## Resource Management
-- We use Python instead of Angular to request or pull down data from the APIs for each component (such as Clock, Date, Weather ect..) because it enables us to show only the necessary information we need to display to the front-end for each instances.
+- We use Python (Flask) instead of Angular to request and extract data from the APIs for each component (such as Clock, Date, Weather ect..) because it enables us to show only the necessary information we need to display to the front-end for each component instance. This keeps data parsing code out of our frontend rendering logic.
 ## Security
 - As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance
@@ -115,7 +115,7 @@
 ## Overengineering
 ## Build-vs-Buy Decisions
 We used both Angular and Flask as a third party libraries in our system.
-- Angular- It enable us to use package functionality to request data from the APIs.
+- Angular- Allows us to modularize frontend and request data from each respective frontend component separately.
 - Flask- Received HTTP request and called those methods for those instances. 
 ## Reuse
 ## Change Strategy

@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 45px;
 }
 h2 {
   font-size: 10px;
@@ -48,5 +48,5 @@ h2 {
 }
 
 app-clock h1 {
-  font-size: 105px;
+  font-size: 95px;
 }

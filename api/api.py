@@ -38,7 +38,7 @@ def quote():
     
 @app.route("/api/traffic")
 def traffic():
-    r = requests.get('https://maps.googleapis.com/maps/api/distancematrix/json/{}origins={}&destinations={}&key={}'.format(TRAFFIC_URL, TRAFFIC_SOURCE, TRAFFIC_DEST, config.maps_key)) 
+    r = requests.get('{}origins={}&destinations={}&key={}'.format(TRAFFIC_URL, TRAFFIC_SOURCE, TRAFFIC_DEST, config.maps_key)) 
     return json.dumps(extract_travel_time(r.json()))
 
 @app.route("/api/calendar")

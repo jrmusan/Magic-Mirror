@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { TrafficService } from './traffic.service';
+import { TrafficModel } from './traffic.model';
 
 @Component({
   selector: 'app-travel-times',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./travel-times.component.css']
 })
 export class TravelTimesComponent implements OnInit {
+  /*private*/ traffic: TrafficModel;
 
-  constructor() { }
+  constructor(private trafficService: TrafficService) {  }
 
   ngOnInit() {
+    this.trafficService.getTraffic().subscribe(
+      (data: any) => {
+        this.traffic = data;
+      },
+      err => console.log(err),
+      () => console.log('Retrieved weather data successfully.')
+    );
   }
 
 }

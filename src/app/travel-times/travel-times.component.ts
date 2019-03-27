@@ -15,6 +15,7 @@ export class TravelTimesComponent implements OnInit {
   ngOnInit() {
     this.trafficService.getTraffic().subscribe(
       (data: any) => {
+        console.log(data);
         this.traffic = data;
       },
       err => console.log(err),

@@ -8,4 +8,4 @@ import config
 import sys,io,requests
 
 def extract_travel_time(data):
-    return data['rows'][0]['elements'][0]['duration']['text']
+    return data['rows'][0]['elements'][0]['duration']

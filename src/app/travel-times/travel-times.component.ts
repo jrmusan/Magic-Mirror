@@ -18,7 +18,7 @@ export class TravelTimesComponent implements OnInit {
         this.traffic = data;
       },
       err => console.log(err),
-      () => console.log('Retrieved weather data successfully.')
+      () => console.log('Retrieved traffic data successfully.')
     );
   }
 

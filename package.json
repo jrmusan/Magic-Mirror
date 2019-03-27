@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "api:venv": "cd api && python3 -m venv venv",
+    "api:venv": "cd api && python3 -m virtualenv venv",
     "api:install": "cd api && . venv/bin/activate && pip install -r requirements.txt"
   },
   "private": true,

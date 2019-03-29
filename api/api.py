@@ -2,6 +2,7 @@
 import requests
 import json
 import config
+import praw
 from flask import Flask
 from functools import reduce
 from weather_helpers import extract_weather_data
@@ -27,7 +28,22 @@ def news():
 
 @app.route("/api/reddit")
 def reddit():
-    return "This will return data fetched via Reddit API"
+    # Using authorized mode!
+    reddit = praw.Reddit(client_id=config.client_id,client_secret=config.secret_client,user_agent=config.usr_agent,username=config.usr_name, password=config.reddit_ps)
+    ucfReddit = reddit.subreddit('UCF')
+    showerThoughts = reddit.subreddit('Showerthoughts')
+
+    # Grab 5 stories from showerThoughts
+    for submission in showerThoughts.hot(limit=5):
+        redditTitles.append(submission.title)
+
+    # Grab 5 stories from UCF 	
+    for submission in showerThoughts.hot(limit=5):
+        redditTitles.append(submission.title)
+
+    # Return json dumped version of this dictionary
+    json_string = json.dumps(redditTitles)
+    return json_string
     
 @app.route("/api/quote")
 def quote():

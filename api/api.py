@@ -25,7 +25,7 @@ def weather():
 @app.route("/api/news")
 def news():
 
-    r = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", apikey) )
+    r = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", config.news_key) )
     return json.dumps( news_helpers(r.json()) )
 
 @app.route("/api/reddit")

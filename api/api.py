@@ -24,7 +24,9 @@ def weather():
 
 @app.route("/api/news")
 def news():
-    return "This will return data fetched via News API"
+
+    r = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", apikey) )
+    return json.dumps( news_helpers(r.json()) )
 
 @app.route("/api/reddit")
 def reddit():
@@ -60,8 +62,5 @@ def traffic():
 @app.route("/api/calendar")
 def calendar():
     r = requests.get('https://webcourses.ucf.edu/feeds/calendars/user_QlbM3tYdBowXoTbbzfgUiy7cYb39WTcBzkEDCWUU.ics')
-
-    # TODO: Error checking
-
 
     return json.dumps(extract_calendar_data(r.text))

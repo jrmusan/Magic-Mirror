@@ -10,15 +10,7 @@ import {EventListService} from './event-list.service';
 })
 export class EventListComponent implements OnInit {
 
-  myEvents: CustomEvent[] = [
-    // test events
-    new CustomEvent('Jazzercise', 'Work on your glutes',
-      'January 4')
-    , new CustomEvent('SkyDiving', 'Jump to the ground',
-      'January 6')
-    , new CustomEvent('Quit', 'You can do better',
-      'January 9')
-  ];
+  myEvents: CustomEvent[];
 
   constructor(private eventListService: EventListService) {  }
 
@@ -31,5 +23,4 @@ export class EventListComponent implements OnInit {
       () => console.log('Retrieved calendar event data successfully.')
     );
   }
-
 }

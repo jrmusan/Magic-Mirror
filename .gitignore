@@ -46,4 +46,4 @@ Thumbs.db
 venv
 __pycache__
 config.py
-
+*.pyc

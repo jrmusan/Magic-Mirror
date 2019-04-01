@@ -12,7 +12,7 @@ export class TravelTimesComponent implements OnInit {
 
   constructor(private trafficService: TrafficService) {  }
 
-  ngOnInit() {
+  updateTravelTimes() {
     this.trafficService.getTraffic().subscribe(
       (data: any) => {
         this.traffic = data;
@@ -20,6 +20,14 @@ export class TravelTimesComponent implements OnInit {
       err => console.log(err),
       () => console.log('Retrieved traffic data successfully.')
     );
+  }
+
+  ngOnInit() {
+    // Initial fetch.
+    this.updateTravelTimes();
+
+    // Update every 10 minutes.
+    setInterval(() => { this.updateTravelTimes(); }, 600000);
   }
 
 }

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { WeatherService } from './weather.service';
 import { WeatherModel } from './weather.model';
 
+const TEN_MINUTES = 600000;
+
 @Component({
   selector: 'app-weather',
   templateUrl: './weather.component.html',
@@ -12,7 +14,7 @@ export class WeatherComponent implements OnInit {
 
   constructor(private weatherService: WeatherService) {  }
 
-  ngOnInit() {
+  updateWeather() {
     this.weatherService.getWeather().subscribe(
       (data: any) => {
         this.weather = data;
@@ -20,6 +22,14 @@ export class WeatherComponent implements OnInit {
       err => console.log(err),
       () => console.log('Retrieved weather data successfully.')
     );
+  }
+
+  ngOnInit() {
+    // Initial fetch.
+    this.updateWeather();
+
+    // Update every 10 minutes.
+    setInterval(() => { this.updateWeather(); }, TEN_MINUTES);
   }
 
 }

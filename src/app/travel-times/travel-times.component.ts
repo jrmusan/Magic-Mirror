@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { TrafficService } from './traffic.service';
 import { TrafficModel } from './traffic.model';
 
+const TEN_MINUTES = 600000;
+
 @Component({
   selector: 'app-travel-times',
   templateUrl: './travel-times.component.html',
@@ -27,7 +29,7 @@ export class TravelTimesComponent implements OnInit {
     this.updateTravelTimes();
 
     // Update every 10 minutes.
-    setInterval(() => { this.updateTravelTimes(); }, 600000);
+    setInterval(() => { this.updateTravelTimes(); }, TEN_MINUTES);
   }
 
 }

@@ -8,6 +8,7 @@ from functools import reduce
 from weather_helpers import extract_weather_data
 from traffic_helpers import extract_travel_time
 from calendar_event_helpers import extract_calendar_data
+from reddit_helpers import extract_reddit_titles
 
 app = Flask(__name__)
 
@@ -30,22 +31,7 @@ def news():
 
 @app.route("/api/reddit")
 def reddit():
-    # Using authorized mode!
-    reddit = praw.Reddit(client_id=config.client_id,client_secret=config.secret_client,user_agent=config.usr_agent,username=config.usr_name, password=config.reddit_ps)
-    ucfReddit = reddit.subreddit('UCF')
-    showerThoughts = reddit.subreddit('Showerthoughts')
-
-    # Grab 5 stories from showerThoughts
-    for submission in showerThoughts.hot(limit=5):
-        redditTitles.append(submission.title)
-
-    # Grab 5 stories from UCF 	
-    for submission in ucfReddit.hot(limit=5):
-        redditTitles.append(submission.title)
-
-    # Return json dumped version of this dictionary
-    json_string = json.dumps(redditTitles)
-    return json_string
+    return extract_reddit_titles()
     
 @app.route("/api/quote")
 def quote():

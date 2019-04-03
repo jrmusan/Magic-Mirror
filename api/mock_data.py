@@ -119,3 +119,17 @@ mock_quote_data = {
         "copyright": "2017-19 theysaidso.com"
     }
 }
+
+
+mock_reddit_data {
+    "What Is A Showerthought?"
+    "Introverts run on re-chargeable batteries while extroverts run on solar panel"
+    "The loneliest person in the world would probably be delighted to know that you are thinking about them at this very moment."
+    "Willy Wonka believed a sample size of 5 children was a large enough pool to find someone worthy of inheriting his company."
+    "Pornhub ads seem to be the only ads actually related to the content, compared to most websites, making them actually feel less intrusive, even thought they aren't."
+    "Weekly Ask Anything Thread - Here's a chance to ask any question you might have about UCF! Week of March 31, 2019"
+    "ladies and gentlement...ucf’s shuttle service..mind you theres supposed to be 3 shuttles running between ucf and kc and they’re all here"
+    "Under Construction Forever"
+    "Free bible? No, thank you"
+    "Transportation during Universal Knights?"
+}

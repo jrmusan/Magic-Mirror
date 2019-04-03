@@ -12,6 +12,7 @@ import { DateComponent } from './date/date.component';
 import { EventItemComponent } from './calendar/event-list/event-item/event-item.component';
 import { EventListComponent } from './calendar/event-list/event-list.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { NewsComponent } from './ucf-reddit/news/news.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     TravelTimesComponent,
     DateComponent,
     EventItemComponent,
-    EventListComponent
+    EventListComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

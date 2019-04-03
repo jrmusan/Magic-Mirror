@@ -40,7 +40,7 @@ def reddit():
         redditTitles.append(submission.title)
 
     # Grab 5 stories from UCF 	
-    for submission in showerThoughts.hot(limit=5):
+    for submission in ucfReddit.hot(limit=5):
         redditTitles.append(submission.title)
 
     # Return json dumped version of this dictionary

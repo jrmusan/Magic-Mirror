@@ -13,7 +13,7 @@ export class NewsComponent implements OnInit {
   ngOnInit() {
     this.redditNewsService.getNewsHeadlines().subscribe(
       (data: any) => {
-        this.redditNewsService.newsHeadlines[] = data;
+        this.redditNewsService.newsHeadlines = data;
       },
       err => console.log(err),
       () => console.log('Retrieved news data successfully.')

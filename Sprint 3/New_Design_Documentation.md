@@ -133,7 +133,13 @@ Software:
 ## Fault Tolerance
 - Even if we dont get the requested data from the API upon request , it won't crash or take the application down. 
 ## Architectural Feasibility
-- 
+Scope of the Architectural Feasiblity
+ * Building the program: 
+           We used Python, Javascript, HTML, and CSS
+ * Accessing Sites: 
+            With the APIs, we were able to access the UCF Webcourses Site for Reddit and CNN for news
+ * Cost: 
+            It costs us 100+ dollars to build this project
 ## Overengineering
 - The use of Angular could be considered over-engineering, because it seem to us that it was too robust for the application at this current state.
 ## Build-vs-Buy Decisions

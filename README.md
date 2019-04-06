@@ -39,6 +39,20 @@ The magic mirror can be programmed to display different types of information dep
 
 [Video Demo](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/video-demo.gif "Video Demo")
 
+## Sprint 3
+
+[User Stories](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%201/User_Stories.md)
+
+[Design Documentation](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/New_Design_Documentation.md)
+
+[Burndown Chart](http://radekstepan.com/burnchart/#!/jrmusan/Magic-Mirror "Burndown Chart")
+
+[Burndown Chart Explanation ](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/Burnown%20description.md "Burndown Chart")
+
+[Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
+
+[Video Demo](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/video-demo.gif "Video Demo")
+
 ## Grading
 
 **Backlogs**: We've chosen to implement a Kanban board using Github Projects. Within this tab lies our [Product and Sprint Backlogs](https://github.com/jrmusan/Magic-Mirror/projects/1) as well as the current status for tasks we're tackling within the current sprint. As these tasks are finished, they are moved to done, which is essentially the "done" pile of the Sprint Backlog. Github labels are used for priority and categorizing.

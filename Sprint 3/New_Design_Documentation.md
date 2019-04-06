@@ -121,9 +121,9 @@ Software:
 - We use the Back-end to proccess data and the front-end to display neccessary data.
 
 ## Scalability
--
+- As far as scalability, this project was created mainly for UCF. However, any other colleges that used Webcourses can use it and  implement it to a bigger scale or for a bigger project.
 ## Interoperability
--
+- Our application is suitable to run or interoperability between devices made by different manufacturers. For instance, Raspberry Pi, Laptop, Desktop Computer, and TV.
 ## Internationalization/Localization
 - Our APIs are pulling localization data or US data per say. For instance, for the Reddit we are pulling data from UCF and for News APIs we are getting top headlines news from CNN.
 ## Input/Output

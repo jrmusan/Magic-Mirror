@@ -8,6 +8,7 @@ from functools import reduce
 from weather_helpers import extract_weather_data
 from traffic_helpers import extract_travel_time
 from calendar_event_helpers import extract_calendar_data
+from news_helpers import getNews
 
 app = Flask(__name__)
 
@@ -26,7 +27,7 @@ def weather():
 def news():
 
     r = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", config.news_key) )
-    return json.dumps( news_helpers(r.json()) )
+    return json.dumps( getNews(r.json()) )
 
 @app.route("/api/reddit")
 def reddit():

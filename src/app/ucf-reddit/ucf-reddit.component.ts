@@ -8,7 +8,7 @@ import {RedditNewsService} from './reddit-news.service';
 })
 export class UcfRedditComponent implements OnInit {
 
-  headlines: string[];
+  headlines: string[] = ['example headline', 'another example headline', 'yup'];
   currentHeadline: string;
 
   constructor(private redditNewsService: RedditNewsService) {  }

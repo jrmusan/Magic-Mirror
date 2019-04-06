@@ -105,18 +105,29 @@
 ## Security
 - As a security measure, We have all the API Keys stored locally instead of having them in github.
 ## Performance
+- 
 ## Scalability
+-
 ## Interoperability
+-
 ## Internationalization/Localization
+-
 ## Input/Output
+- We get the Calendar, Clock, Weather, News/Reddit and Quotes inputs from their appropriate APIs and output their contents respectively on the monitor display.
 ## Error Processing
+- All Errors caught are logged to the concole.
 ## Fault Tolerance
+- Even if we dont get the requested data from the API upon request , it won't crash or take the application down. 
 ## Architectural Feasibility
+-
 ## Overengineering
+- The use of Angular could be considered over-engineering, because it seem to us that it was too robust for the application at this current state.
 ## Build-vs-Buy Decisions
 We used both Angular and Flask as a third party libraries in our system.
 - Angular- Allows us to modularize frontend and request data from each respective frontend component separately.
 - Flask- Received HTTP request and called those methods for those instances. 
 ## Reuse
+- Basically, every API features of this app is reusable outside of this project.
 ## Change Strategy
+- 
 

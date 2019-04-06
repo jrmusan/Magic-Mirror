@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {RedditNewsService} from './reddit-news.service';
 
+const TEN_MINUTES = 600000;
+
 @Component({
   selector: 'app-ucf-reddit',
   templateUrl: './ucf-reddit.component.html',
@@ -15,6 +17,14 @@ export class UcfRedditComponent implements OnInit {
 
   ngOnInit() {
 
+    this.apiCall();
+
+    // Update every 10 minutes.
+    setInterval(() => { this.apiCall(); }, TEN_MINUTES);
+
+  }
+
+  apiCall() {
     // perform api call
     this.redditNewsService.getRedditHeadlines().subscribe(
       (data: any) => {
@@ -32,7 +42,6 @@ export class UcfRedditComponent implements OnInit {
       err => console.log(err),
       () => console.log('Retrieved reddit data successfully.')
     );
-
   }
 
   getHeadline() {

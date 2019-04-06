@@ -8,7 +8,7 @@ import {RedditNewsService} from './reddit-news.service';
 })
 export class UcfRedditComponent implements OnInit {
 
-  headlines: string[] = ['example headline', 'another example headline', 'yup'];
+  headlines: string[];
   currentHeadline: string;
 
   constructor(private redditNewsService: RedditNewsService) {  }
@@ -19,27 +19,20 @@ export class UcfRedditComponent implements OnInit {
     this.redditNewsService.getRedditHeadlines().subscribe(
       (data: any) => {
         this.redditNewsService.redditHeadlines = data;
-        this.headlines = data;
+        this.headlines = data.news.concat(JSON.parse(data.reddit));
+        this.currentHeadline = this.headlines[0];
+
+        // set a current headline to display
+        this.currentHeadline = this.headlines[0];
+        setInterval( () => {
+          this.getHeadline();
+        }, 10000);
+
       },
       err => console.log(err),
       () => console.log('Retrieved reddit data successfully.')
     );
 
-    // keep headline array up to date with service
-    setInterval( () => {
-      this.updateHeadlines();
-    }, 8000);
-
-    // set a current headline to display
-    this.currentHeadline = this.headlines[0];
-    setInterval( () => {
-      this.getHeadline();
-    }, 8000);
-  }
-
-  updateHeadlines() {
-    this.headlines = this.redditNewsService.redditHeadlines.concat(
-      this.redditNewsService.newsHeadlines);
   }
 
   getHeadline() {

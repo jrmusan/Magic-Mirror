@@ -26,11 +26,16 @@ def weather():
 @app.route("/api/news")
 def news():
 
-    r = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", config.news_key) )
-    return json.dumps( getNews(r.json()) )
+    r_news = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", config.news_key) )
+    return json.dumps( getNews(r_news.json()) )
 
 @app.route("/api/reddit")
 def reddit():
+
+    r_news = requests.get( "https://newsapi.org/v2/top-headlines?sources={}&apiKey={}".format("cnn", config.news_key) )
+
+
+    redditTitles = []
     # Using authorized mode!
     reddit = praw.Reddit(client_id=config.client_id,client_secret=config.secret_client,user_agent=config.usr_agent,username=config.usr_name, password=config.reddit_ps)
     ucfReddit = reddit.subreddit('UCF')
@@ -46,7 +51,11 @@ def reddit():
 
     # Return json dumped version of this dictionary
     json_string = json.dumps(redditTitles)
-    return json_string
+
+    return json.dumps({
+      'news': getNews(r_news.json()),
+      'reddit': json_string
+    })
     
 @app.route("/api/quote")
 def quote():

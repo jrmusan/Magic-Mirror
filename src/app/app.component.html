@@ -1,19 +1,22 @@
 <div class="root">
-  <div class="column-left">
-    <app-date></app-date>
-    <app-calendar></app-calendar>
+  <div class="row-container">
+      <div class="row">
+        <div class="column-left">
+          <app-date></app-date>
+          <app-calendar></app-calendar>
+        </div>
+        <div class="column-middle">
+          <app-clock></app-clock>
+          <app-motivation></app-motivation>
+        </div>
+        <div class="column-right">
+          <app-weather></app-weather>
+          <app-travel-times></app-travel-times>
+        </div>
+      </div>
+      <div align="center">
+        <app-ucf-reddit></app-ucf-reddit>
+      </div>
   </div>
-  <div class="column-middle">
-    <app-clock></app-clock>
-    <app-motivation></app-motivation>
-  </div>
-  <div class="column-right">
-    <app-weather></app-weather>
-    <app-travel-times></app-travel-times>
-  </div>
-</div>
-<hr />
-<div align="center">
-  <app-ucf-reddit></app-ucf-reddit>
 </div>
 

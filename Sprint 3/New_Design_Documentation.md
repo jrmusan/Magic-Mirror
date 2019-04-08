@@ -33,7 +33,7 @@
 
 ## Major Classes
 ### Classes Design/Diagram
-![ClassDiag](https://user-images.githubusercontent.com/47402226/54484089-767ed180-4835-11e9-8421-f5876e33b44e.PNG)
+![Latest](https://user-images.githubusercontent.com/47402226/55693149-75941800-597b-11e9-85f7-e7b0284a61da.PNG)
 
 ### Class Description
 | Component Name     | Description                                                                                                                                             

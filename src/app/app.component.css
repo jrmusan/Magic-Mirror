@@ -48,6 +48,7 @@ h2 {
   justify-content: space-between;
   width: 30%;
   height: 100%;
+  flex: 1;
   margin: 0;
 }
 

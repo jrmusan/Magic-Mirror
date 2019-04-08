@@ -32,8 +32,6 @@ export class UcfRedditComponent implements OnInit {
         this.headlines = data.news.concat(JSON.parse(data.reddit));
         this.currentHeadline = this.headlines[0];
 
-        // set a current headline to display
-        this.currentHeadline = this.headlines[0];
         setInterval( () => {
           this.getHeadline();
         }, 30000);

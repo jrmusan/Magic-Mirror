@@ -100,7 +100,13 @@ ng test
 ng e2e
 ```
 
-**Server Development**
+**Initial setup**
+
+First at the root of the project folder run:
+
+```
+npm install
+```
 
 To set up the virtual environment necessary for development, at the root of the project folder run:
 
@@ -114,11 +120,12 @@ To install all necessary dependencies for development, at the root of the projec
 npm run api:install
 ```
 
-To start the server, at the root of the project run:
+To start the server, at the root of the project run: (This is all that's needed for all subsequent runs)
 
 ```
 npm run start
 ```
+
 
 Navigate in web browser to the given localhost specified in terminal 
 
@@ -129,5 +136,3 @@ To run tests we have set up for route methods, run
 ```
 python api/tests.py
 ```
-
-

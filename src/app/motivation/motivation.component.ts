@@ -16,7 +16,7 @@ export class MotivationComponent implements OnInit {
 
     setInterval( () => {
       this.getQuote();
-    }, 8000);
+    }, 30000);
   }
 
   ngOnInit() {

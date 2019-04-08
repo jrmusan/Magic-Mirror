@@ -51,7 +51,7 @@ The magic mirror can be programmed to display different types of information dep
 
 [Basic Demo](https://raw.githubusercontent.com/jrmusan/Magic-Mirror/master/Sprint%203/2019-04-08%2014.40.33.gif "Clock Demo")
 
-[Video Demo](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/video-demo.gif "Video Demo")
+[Video Demo](https://youtu.be/567eV4jmeXc "Video Demo")
 
 ## Grading
 

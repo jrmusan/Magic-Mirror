@@ -1,7 +1,6 @@
 <div>
   <div *ngIf="traffic; else elseBlock" class="info">
-    <h1>Time to UCF:</h1>
-    <h1>{{ traffic.text }}</h1>
+    <h1>Time to UCF: {{ traffic.text }}</h1>
   </div>
   <ng-template #elseBlock>
     <div>

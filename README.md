@@ -49,7 +49,7 @@ The magic mirror can be programmed to display different types of information dep
 
 [Burndown Chart Explanation ](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/Burnown%20description.md "Burndown Chart")
 
-[Basic Demo](http://magic-mirror-demo.s3-website.us-east-2.amazonaws.com "Clock Demo")
+[Basic Demo](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%203/2019-04-08%2014.40.33.gif "Clock Demo")
 
 [Video Demo](https://github.com/jrmusan/Magic-Mirror/blob/master/Sprint%202/video-demo.gif "Video Demo")
 

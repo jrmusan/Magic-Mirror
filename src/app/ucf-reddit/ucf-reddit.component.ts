@@ -36,7 +36,7 @@ export class UcfRedditComponent implements OnInit {
         this.currentHeadline = this.headlines[0];
         setInterval( () => {
           this.getHeadline();
-        }, 10000);
+        }, 30000);
 
       },
       err => console.log(err),

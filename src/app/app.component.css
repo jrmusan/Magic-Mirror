@@ -40,6 +40,7 @@ h2 {
   justify-content: space-between;
   border-bottom: 1px solid white;
   padding-bottom: 25px;
+  height: 100%;
 }
 
 .column-left, .column-middle, .column-right {

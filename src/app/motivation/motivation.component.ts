@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./motivation.component.css']
 })
 export class MotivationComponent implements OnInit {
-  quotes: string[] = ['You got this!', 'You are beautiful and or handsome', 'yup'];
+  quotes: string[] = ['You got this!', 'You are beautiful', 'Looking good', 'Brush your teeth',
+    'Go get em Tiger', 'MY MAN!', 'Study', 'Go outside', 'Take a shower', 'Go to bed', 'Drink more water'];
   currentQuote: string;
 
 

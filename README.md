@@ -117,8 +117,10 @@ npm run api:install
 To start the server, at the root of the project run:
 
 ```
-npm run api:start
+npm run start
 ```
+
+Navigate in web browser to the given localhost specified in terminal 
 
 **Server Tests**
 

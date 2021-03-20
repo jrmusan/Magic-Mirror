@@ -6,7 +6,7 @@ Flask-Testing==0.7.1
 icalendar==4.0.3
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 praw==6.1.1
 prawcore==1.0.1
